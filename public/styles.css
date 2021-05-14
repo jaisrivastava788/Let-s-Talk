@@ -1,0 +1,38 @@
+body{
+text-align: center;
+background-color: #fafafa;
+;
+background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.info{
+    padding: 20px;
+    position: fixed;
+    bottom: 2px;
+    z-index: 1;
+    background-color: azure;
+    width: 100%;
+    right: 90px;
+    left: .1rem;
+   
+    
+
+    /* right: 0px; */
+  /* left: 30px; */
+    
+}
+
+.form{
+    display: flex !important;
+    flex-direction: inherit !important;
+}
+
+.btn{
+    flex: 1;
+    right: 15px;
+}
+
+.ip{
+    flex: 2;
+}
